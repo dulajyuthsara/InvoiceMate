@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build output
+.next/
+dist/
+build/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# Misc
+*.pem
+.vercel
+.turbo
+
+# PWA
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
+
+# TypeScript
+*.tsbuildinfo
